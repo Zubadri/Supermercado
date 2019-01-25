@@ -1,0 +1,57 @@
+/*Paso 4. Estilar los cuadros*/
+body{
+    background-image: url("cimida-saludable-ninos-de-4-a-12-anos-e1509478272269.jpg");
+    background-size: cover;
+}
+#carro > * {
+	display:block;
+	}
+fieldset{
+    width: auto; 
+}
+#fondo{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 3% 10% 0 10%;   
+    box-shadow: -2px 2px 8px black; 
+    border-radius: 2%;
+}
+/*#imagen{
+    margin-top: 5%;
+}*/
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(8, 8, 8, 0.7);
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(8, 8, 8, 0.7);
+}
+#titulillo{
+    text-align: center;
+}
+#imagen{
+    padding-left: 42%;
+}
+#texto{
+    text-align: center;
+    padding-bottom: 30%
+}
+#formulario1{
+    margin-bottom: 3%;
+    border-radius: 10%;
+}
+#carro{
+    padding-bottom: 8%;
+    border-radius: 5%;
+    
+}
+#estado{
+    -moz-box-flex: 0;
+    
+}
+#field{
+    border-radius: 10%;
+}
+#set{
+    border-radius: 5%;
+}

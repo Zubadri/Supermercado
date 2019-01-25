@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<script src="f1.js"></script>
+    <title>AldIFP</title>
+</head>
+<body>
+	<div id="fondo">
+	<img id="imagen" src="AldIFP.png">
+	<div id=titulillo><h2>AldIFP, tu supermercado de confianza.</h2></div>
+    <form id="formulario1" name="formulario1" method="post" action="action_page.html">
+	    <fieldset id="set">
+		    <legend>Datos personales</legend>
+		    <label for="nombre" id="field">Tu nombre y apellidos:</label><br>
+			<input type="text" name="nombre" id="field"><br>
+			<label for="DNI">Tu DNI/NIF:</label><br>
+		    <input type="text" name="DNI" id="field"><br>
+		    <label for="apellidos">Tu dirección:</label><br>
+		    <input type="text" name="apellidos" id="field"><br>
+	    </fieldset>
+	    <fieldset id="carro">
+				<legend>Asegúrese de introducir los alimentos que quiera añadir al carro</legend>
+		    <h3>Indique los alimentos que quiere añadir al carro</h3>
+		    <!--Paso 3. Crear el evento. En el caso de las listas es mejor este, onclick no surtiría efecto. más info: https://stackoverflow.com/questions/21029907/does-the-javascript-onclick-event-not-work-on-select-options-->
+		    <select name="estado" id="estado" onChange="agregarOEliminar()">
+				<option value="0">-- Eliminar todo --</option>
+				<option value="1">Verduras</option>
+			    <option value="2">Congelado</option>
+				<option value="3">Carne</option>
+				<option value="4">Pescado</option>
+				<option value="5">Cereales</option>
+				<input type="submit" value="Comprar">
+				<p> </p>
+			</select>
+			<!--<a href="javascript:eliminar_parrafo();">Borrar párrafo</a><br/>
+			<a href="javascript:annadir_parrafo();">Añadir párrafo</a><br/>-->
+		</fieldset>
+	</form>	
+</div>
+</body>
+</html>

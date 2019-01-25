@@ -1,0 +1,7 @@
+*Se propone la creación de un formulario en el que se puedan agregar campos nuevos, como por ejemplo, un carrito de una tienda o una factura.
+
+*El diseño en cuanto a la forma de agregar los items nuevos es libre. Puede ser mediante desplegable, botones, arrastrables...
+
+Se valora positivamente una página estilada con colores, bordes, sombras... y maquetada con flex o grid. No el formulario pelao. (4 puntos).
+
+Es obligatorio el uso de closures en sustitución de variables globales en caso de necesitarlas.
